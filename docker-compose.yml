@@ -1,0 +1,10 @@
+services:
+  db:
+    image: postgres:13
+    volumes:
+      - data:/var/lib/postgresql/data
+    env_file: ./.env.local
+    ports:
+      - "${PGPORT}:${PGPORT}"
+volumes:
+  data:
