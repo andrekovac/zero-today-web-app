@@ -1,8 +1,19 @@
+# Zero Today
+
+Visit [https://zero-today.herokuapp.com/](https://zero-today.herokuapp.com/)
+
+## Run locally
+
+## Deploy to Heroku
+
+1. Follow [heroku deployment guide](https://blitzjs.com/docs/deploy-heroku)
+2. Add env variable `SESSION_SECRET_KEY` inside Heroku follwowing [these instructions](https://blitzjs.com/docs/session-management#production-deployment-requirements).
+
+---
+
 [![Blitz.js](https://raw.githubusercontent.com/blitz-js/art/master/github-cover-photo.png)](https://blitzjs.com)
 
 This is a [Blitz.js](https://github.com/blitz-js/blitz) app.
-
-# **zeroToday**
 
 ## Getting Started
 
